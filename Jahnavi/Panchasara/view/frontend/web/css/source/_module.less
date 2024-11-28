@@ -1,0 +1,54 @@
+& when (@media-common = true) {
+    .second-footer {
+        margin: @indent__l 0;
+        padding: 0 @layout-indent__width;
+        text-align: center;
+        .action {
+            &.primary {
+                .lib-button-l(
+                    @_button-l-padding: 10px 17px
+                );
+            }
+        }
+    }
+    .guess-modal {
+        display: none;
+        text-align: center;
+        p {
+            .lib-font-size(16);
+            margin-bottom: @indent__m;
+        }
+    }
+    .highlight {
+        color: @color-dark-green1;
+        font-weight: bold;
+    }
+    .guess-btn {
+        &.action {
+            &.primary {
+                .lib-button-l(
+                    @_button-l-padding: 10px 17px
+                );
+                margin-bottom: @indent__m;
+            }
+        }
+    }
+    input[type='number'] {
+        &.guess-input {
+            height: 45px;
+            margin-bottom: @indent__m;
+            text-align: center;
+            width: 150px;
+        }
+    }
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+    .guessing-game-popup {
+        &.modal-popup {
+            .modal-inner-wrap {
+                max-width: 500px;
+            }
+        }
+    }
+}

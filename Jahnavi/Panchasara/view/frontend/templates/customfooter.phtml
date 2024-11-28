@@ -1,0 +1,16 @@
+<div class="second-footer abs-visually-hidden-mobile-m">
+    <button id="guessing-game-button" class="action primary">
+        <?php echo __('Play Guessing Game') ?>
+    </button>
+    <div id="guessing-game-modal" class="guess-modal">
+        <p><?php echo __('Try to guess the number between 1 and 50!') ?></p>
+        <input type="number" id="guess-input"
+            class="input guess-input"
+            placeholder="<?php echo __('Enter your guess') ?>" min="1" max="50" />
+        <div class="actions">
+            <button id="guess-submit" class="action primary guess-btn"><?php echo __('Guess') ?></button>
+        </div>
+        <p id="game-message"></p>
+        <p id="guesses-list"></p>
+    </div>
+</div>
