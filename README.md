@@ -17,7 +17,7 @@ This module provides a guessing game feature where users can guess a randomly ge
 2. **Enable the Module**
    - Run the following commands in your terminal from the Magento root directory:
 
-     php bin/magento module:enable Jahnavi_Panchasara
+     php bin/magento module:enable Jahnavi_Panchasara <br/>
      php bin/magento setup:upgrade
 
 
