@@ -10,7 +10,7 @@ This module provides a guessing game feature where users can guess a randomly ge
 1. **Upload the Module**
    - Copy the module directory (`Jahnavi/Panchasara`) into the following location of your Magento installation:
 
-     app/code/
+     app/code/ <br/>
      app/code/Jahnavi/Panchasara
 
 
